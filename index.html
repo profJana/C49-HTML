@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira aula HTML</title>
+</head>
+<body>
+
+    <p>Isso é um parágrafo</p>
+    <hr>
+    <p>HTML Headings:</p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr>
+    <p>HTML Links:</p>
+    <a href="https://www.youtube.com/channel/UCGfXo34J-7rvXkDP2botN0g">Canal Prof Jana</a>
+    <hr>
+    <p>HTML Images</p>
+    <img src="/code_icon_150718.png" alt="Tag de Imagem">
+    <hr>
+    <p>HTML Formatting Elements</p>
+    <b>Bold Text</b> <br>
+    <strong>Important Text</strong> <br>
+    <i>Italic Text</i> <br>
+    <em>Emphasized text</em> <br>
+    <mark>Marked text</mark> <br>
+    <small>Smaller text</small> <br>
+    <del>Deleted text</del> <br>
+    <ins>Inserted text</ins> <br>
+    <sub>Subscript text</sub> <br>
+    <sup>Superscript text</sup> <br>
+    <hr>
+    <!--Isso é um comentário -->
+    <p>Link to and Email Address</p>
+    <a href="mailto:janainaktavares@outlook.com">Send Email</a>
+    <hr>
+    <p>HTML Table</p>
+    <table>
+        <tr> <!--Isso é uma linha-->
+            <th> <!--isso é o titulo das colunas-->
+                Nome
+            </th>
+            <th>
+                Idade
+            </th>
+        </tr>
+        <tr>
+            <td> <!--conteudo da coluna-->
+                Janaina
+            </td>
+            <td> <!--conteudo da coluna-->
+                27
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <p>Unordered HTML List</p>
+    <ul>
+        <li>Linha 1</li>
+        <li>Linha 2</li>
+        <li>Linha 3</li>
+    </ul>
+    <p>Ordered HTML list</p>
+    <ol>
+        <li>Linha 1</li>
+        <li>Linha 2</li>
+        <li>Linha 3</li>
+    </ol>
+    <hr>
+    <p style="background-color: pink;">Block Elements</p>
+    <ul>
+        <li>article</li>
+        <li>aside</li>
+        <li>canvas</li>
+        <li>div</li>
+        <li>footer</li>
+        <li>form</li>
+        <li>h1 to h6</li>
+        <li>header</li>
+        <li>hr</li>
+        <li>li</li>
+        <li>main</li>
+        <li>nav</li>
+        <li>p</li>
+        <li>section</li>
+        <li>table</li>
+        <li>ul</li>
+        <li>video</li>
+    </ul>
+    <hr>
+    <span style="background-color: cyan;">HTML inline Elements</span> <br>
+    <ul>
+        <li>a</li>
+        <li>b</li>
+        <li>br</li>
+        <li>button</li>
+        <li>i</li>
+        <li>input</li>
+        <li>label</li>
+        <li>select</li>
+        <li>span</li>
+        <li>strong</li>
+    </ul>
+    <hr>
+    <p>HTML div Element</p>
+    <div style="border: 1px solid red;">
+        <p>Parágrafo dentro da div</p>
+        <img src="/code_icon_150718.png" alt="Imagem"><span>Imagem dentro da div</span>
+        <p>Mais um parágrago, div é usado para agrupar elementos</p>
+    </div>
+    <hr>
+    <p>HTML Iframe</p>
+    <iframe width="392" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/XCJNma4h5HshzTj6TMPAMCAJ-4UfjHVs3QE8KQSAIDE/embed"></iframe>
+    <hr>
+    <p>HTML Semantics</p>
+    <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Check here</a>
+    <hr>
+    <p>HTML Forms</p>
+    <form>
+        <input type="text"><span> Input type text</span><br><br>
+        <input type="radio"><span> Input type radio</span> <br><br>
+        <input type="checkbox"><span> Input type checkbox</span> <br><br>
+        <input type="submit"><span> Input type submit</span> <br><br>
+        <input type="button"><span> Input type button</span> <br><br>
+        <input type="color"><span> Input type color</span> <br><br>
+        <input type="date"><span> Input type date</span> <br><br>
+        <input type="datetime-local"><span> Input type datetime-local</span> <br><br>
+        <input type="file"><span> Input type file</span> <br><br>
+        <input type="image"><span> Input type image</span> <br><br>
+        <input type="month"><span> Input type month</span> <br><br>
+        <input type="number"><span> Input type number</span> <br><br>
+        <input type="password"><span> Input type password</span> <br><br>
+        <input type="range"><span> Input type range</span> <br><br>
+        <input type="reset"><span> Input type reset</span> <br><br>
+        <input type="search"><span> Input type search</span> <br><br>
+        <input type="tel"><span> Input type tel</span> <br><br>
+        <input type="time"><span> Input type time</span> <br><br>
+        <input type="week"><span> Input type week</span> <br><br>
+        <label for="fname">Isso é um Label(legenda), utilizada em forms</label><br>
+    </form>
+    <br>
+    <hr>
+    <p>HTML Canvas (tem script js)</p>
+    <canvas id="myCanvas" width="200" height="100" style="border:1px solid black"></canvas>
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.font = "30px Arial"
+        ctx.fillText("Hello World", 10,50)
+    </script>
+    <hr>
+    <p>HTML SVG</p>
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="purple" stroke-width="4" fill="pink"/>
+    </svg>
+    <hr>
+    
+</body>
+</html>
