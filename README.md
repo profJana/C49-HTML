@@ -1,6 +1,8 @@
 # C49-HTML
 Primeira aula de Desenvolvimento WEB - Introdução ao HTML
 
+Atividade principal: https://codepen.io/ProfJanaKT/pen/VwEZMpX?editors=1010
+
 Link para referência e aprofundamento:
 <https://www.w3schools.com/html/default.asp>
 
